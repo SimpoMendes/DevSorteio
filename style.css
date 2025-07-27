@@ -57,11 +57,21 @@ input {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  padding: 13px 220px 20px 16px;
+  padding: 10px 220px 20px 16px;
   align-items: center;
   border-radius: 14px;
   border: 1px solid rgba(255, 255, 255, 0.20);
   background: rgba(255, 255, 255, 0.25);
+
+}
+
+input[type="number"] {
+  box-sizing: border-box;
+  width: 280px;
+  /* Define a largura */
+  height: 40px;
+  /* Define a altura */
+  padding: 10px;
 }
 
 button {
@@ -72,7 +82,7 @@ button {
   padding: 0 40px;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 14px;
   background: #AEC346;
   box-shadow: 0 18px 40px 0 rgba(174, 195, 70, 0.35);
   cursor: pointer;
@@ -139,6 +149,13 @@ button:hover {
     border-radius: 14px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     background: rgba(255, 255, 255, 0.25);
+  }
+
+  input[type="number"] {
+    box-sizing: border-box;
+    width: 280px;
+    height: 40px;
+    padding: 10px;
   }
 
   button {
