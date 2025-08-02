@@ -43,5 +43,5 @@ Tecnologias
 
 <p>Responsividade básica</p>
 
-<img src="">
+<img src="https://github.com/SimpoMendes/DevSorteio/blob/main/assents/mockupsorteio.png?raw=true">
 
